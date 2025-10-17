@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(-45deg, #0077ff,  #00c3ff, #6a00ff, #ff0080);
+    background-size: 400% 400%;
+    animation: Animation 10s ease infinite;
+    color: white;
+    padding: 20px 40px;
+    height: 500px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@keyframes Animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+.text1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 200px;
+}
+
+.text2{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    display: none;
+    margin-top: 200px;
+}
+
+.text3{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    display: none;
+    margin-top: 200px;
+}
